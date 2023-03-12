@@ -16,7 +16,7 @@ void init(int n) {
 
 // 平凡算法
 void common(int n) {
-    #pragma UNROLL(4)
+    // #pragma UNROLL(4)
     for (int i=0; i<n; i++) {
         sum += a[i];
     }
